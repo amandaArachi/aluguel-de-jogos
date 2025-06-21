@@ -7,6 +7,7 @@ function alterarStatus(id) {
             imagem.classList.remove('dashboard__item__img--rented');
             botao.classList.remove('dashboard__item__button--return');
             botao.textContent = 'Alugar';
+            alert('ATENÇÃO: Você possui este ítem, deseja devolvê-lo? Esta ação não terá volta!');
 
         } else {
             imagem.classList.add('dashboard__item__img--rented'); 
